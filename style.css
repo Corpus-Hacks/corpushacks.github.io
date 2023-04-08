@@ -45,11 +45,15 @@ footer {
 	font-size: 200%;
 }
 
-img {
-	display: block;
-	max-width: 30%;
-	height: auto;
-	padding: 5%;
+
+.sponsors { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.sponsors img {
+  max-width: 100%;
 }
 
 /* Add a black background color to the top navigation */
