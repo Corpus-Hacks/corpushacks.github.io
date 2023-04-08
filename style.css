@@ -55,10 +55,11 @@ img {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed;/* Set the navbar to fixed position */
   top: 0; 
   background: black;
   width: 100%;
+  z-index: 1100;
 }
 
 /* Style the links inside the navigation bar */
