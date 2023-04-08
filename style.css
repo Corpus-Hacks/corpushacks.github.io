@@ -1,5 +1,5 @@
 body {
-	background-color: #f2f4f7;
+	background-color: black;
 	width: 60%;
 	height: auto;
 	margin-right: auto;
@@ -7,10 +7,12 @@ body {
 	text-align: left;
 	margin-top: 5%;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 h1 {
-    font-weight: 900;
+	color: #52B788;
+	font-weight: 900;
 }
 
 h2 {
@@ -19,6 +21,11 @@ h2 {
 
 h3 {
     font-weight: 500;
+}
+
+a {
+	color: #52B788;
+	text-decoration: none;
 }
 
 .links {
@@ -39,7 +46,76 @@ footer {
 }
 
 img {
+	display: block;
 	max-width: 30%;
 	height: auto;
 	padding: 5%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; 
+  background: black;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.topnav a:hover {
+  color: #52B788;
+}
+
+details{
+  background-color: #303030;
+  color: #fff;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] p{
+  padding: .5em 1.3rem;
+  margin: 0em;
+}
+
+#firstnav {
+	padding-left: 0px;
+}
+
+.sponsors {
+}
+
+.questions {
+	background-color: #303030;
+	border-radius: 25px;	
+	padding: 15px;
 }

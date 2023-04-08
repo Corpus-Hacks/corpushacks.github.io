@@ -7,70 +7,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="logo.png">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
     <title>Corpus Hacks</title>
 </head>
 <body>
-    <div>
-        <img src="logo.png" alt="logo" width="100" height="100"> 
-        <h1>Corpus Hacks</h1>
-        <h3>April 23rd, Community Room @ SJPL Biblioteca Latinoamericana Branch Library</h3>
+    <div class="topnav">
+        <a id="firstnav" href="#register">Home</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#about">About</a>
+    </div> 
+    <div id="register">
+        <div class="animate__animated animate__fadeInLeft"><h1>Corpus Hacks</h1></div>
+        <h3>📅 April 22nd, 2023<br>
+            📍 Community Room @ SJPL Biblioteca Latinoamericana Branch Library<br>
+            ⏰ 9AM to 9PM
+        </h3>
         <p> 
-		Corpus Hacks is a 12-hour student-run hackathon for middle and high 
-		school students in the Bay Area, specifically encouraging participation from female and non-binary hackers. 
-		Participants will receive free swag, 
-		prizes and food. We hope to provide participants with an inclusive environment where 
-		they can engage in workshops, learn from industry experts, find peers with similar 
-		interests in computer science, and develop their coding skills in a stress-free setting.
+		Corpus Hacks is a 12-hour student-run hackathon for middle and high school students in the Bay Area that encourages participation from female and non-binary hackers. Participants will receive free swag, prizes and food. We hope to provide participants with an inclusive environment where they can engage in workshops, learn from industry experts, find peers with similar interests in computer science, and develop their coding skills in a stress-free setting.
         </p>
-	<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLScjgWFB2DLez5Z8jZVTMfxxt4aBz00BKvT6YqGvKrE0Hglx3w/viewform?usp=sharing">Preregistration Form</a></h2>
+	<h2>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScjgWFB2DLez5Z8jZVTMfxxt4aBz00BKvT6YqGvKrE0Hglx3w/viewform?usp=sharing">Registration Form →</a>
+    </h2>
     </div>
 	<br>
-	<div>
-        <h2>FAQs</h2>
-        
-        <h3>📚 How much experience do I need?</h3>
-        <p>All experience levels are welcome! Corpus Hacks invites beginners to participate.</p>
-
-        <h3>⚖️ Who will be judging?</h3>
-        <p>Projects will be judged by industry experts from Bay Area tech companies.</p>
-
-        <h3>📝 What forms do I need to fill out?</h3>
-        <p>We will send out waivers to participants who filled out the registration form.</p>
-
-        <h3>🎒 What should I bring?</h3>
-        <p>A computer and a charger. Everything else will be provided.</p>
-
-        <h3>🧑‍🤝‍🧑 Do I need a team?</h3>
-        <p>No, teams are not required. We will give time for participants to meet each other and form teams of up to four at the beginning of the event.</p>
-
-        <h3>💻 What is a hackathon?</h3>
-        <p>A hackathon is an educational event where coders can create new things—you can make apps, websites, hardware hacks, etc.</p>
-
-        <h3>🧒 Who is eligible?</h3>
-        <p>Though the hackathon is primarily targeted towards female and nonbinary middle and high school students, all students of any gender are eligible to attend.</p>
-
-        <h3>⌚ Am I required to stay for the entire event?</h3>
-        <p>No, you are welcome to leave whenever you want!</p>
-
-        <h3>💸 Do I have to pay?</h3>
-        <p>The hackathon is free!</p>
-
-        <h3>❓ I have a question!</h3>
-        <p>Feel free to reach out by <a href="mailto:team@corpushacks.com">email</a>!</p>
+	<div id="FAQ">
+        <h2>FAQ</h2>
+        <div class="questions">
+            <details>
+                <summary>📚 How much experience do I need?</summary>
+                <p>All experience levels are welcome! Corpus Hacks invites beginners to participate.</p>
+            </details>
+            <details>
+                <summary>⚖️ Who will be judging?</summary>
+                <p>Projects will be judged by industry experts from Bay Area tech companies.</p>
+            </details>
+            <details>
+                <summary>📝 What forms do I need to fill out?</summary>
+                <p>We will send out waivers to participants who filled out the registration form.</p>
+            </details>
+            <details>
+                <summary>🎒 What should I bring?</summary>
+                <p>A computer and a charger. Everything else will be provided, including meals.</p>
+            </details>
+            <details>
+                <summary>🧑‍🤝‍🧑 Do I need a team?</summary>
+                <p>No, teams are not required. We will give time for participants to meet each other and form teams of up to four at the beginning of the event.</p>
+            </details>
+            <details>
+                <summary>💻 What is a hackathon?</summary>
+                <p>A hackathon is an educational event where coders can create new things—you can make apps, websites, hardware hacks, etc.</p>
+            </details>
+            <details>
+                <summary>🧒 Who is eligible?</summary>
+                <p>Though the hackathon is primarily targeted towards female and nonbinary middle and high school students, all students of any gender are eligible to attend.</p>
+            </details>
+            <details>
+                <summary>⌚ Am I required to stay for the entire event?</summary>
+                <p>No, you are welcome to leave whenever you want!</p>
+            </details>
+            <details>
+                <summary>💸 Do I have to pay?</summary>
+                <p>The hackathon is free!</p>
+            </details>
+            <details>
+                <summary>❓ I have a question!</summary>
+                <p>Feel free to reach out by <a href="mailto:team@corpushacks.com">email</a>!</p>
+            </details>
+        </div>
     </div>
     <br>
-    <div>
+    <div id="sponsors">
         <h2>Special Thanks</h2>
         <p>We would like to thank all our sponsors who have contributed towards making our hackathon possible!</p>
         <p>Interested in sponsoring us? Check out our <a href="prospectus.pdf">sponsorship prospectus</a> or send us an <a href="mailto:team@corpushacks.com">email</a>.</p>
-        <a href="https://www.postman.com/" class="img"><img src="logos/postman.png" /></a>
-        <a href="https://hackclub.com/bank/" class="img"><img src="logos/hackclub.png" /></a>
-        <a href="https://www.firstinspires.org/robotics/frc" class="img"><img src="logos/first.png" /></a>
-        <a href="https://www.desmos.com/" class="img"><img src="logos/desmos.png" /></a>
-        <a href="https://artofproblemsolving.com/" class="img"><img src="logos/aops.png" /></a>
+        <div class="sponsors">
+            <a href="https://www.postman.com/" class="img"><img src="logos/postman.png" /></a>
+            <a href="https://hackclub.com/bank/" class="img"><img src="logos/hackclub.png" /></a>
+            <a href="https://www.firstinspires.org/robotics/frc" class="img"><img src="logos/first.png" /></a>
+            <a href="https://www.desmos.com/" class="img"><img src="logos/desmos.png" /></a>
+            <a href="https://artofproblemsolving.com/" class="img"><img src="logos/aops.png" /></a>
+            <a href="https://www.3blue1brown.com/" class="img"><img src="logos/3b1b.png" /></a>
+            <a href="https://www.ncwit.org/" class="img"><img src="logos/ncwit.png" /></a>
+            <a href="https://www.hackerone.com/" class="img"><img src="logos/hackerone.png" /></a>
+            <a href="https://www.taskade.com/" class="img"><img src="logos/taskade.png" /></a>
+            <a href="https://www.vercel.com/" class="img"><img src="logos/vercel.png" /></a>
+        </div>
     </div>
     <br>
-    <div>
+    <div id="about">
         <h2>Our Mission</h2>
         <p>
             Corpus Hacks aims to help bridge the gender gap in the field of computer science 
