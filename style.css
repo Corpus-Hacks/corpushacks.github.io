@@ -45,28 +45,28 @@ footer {
 	font-size: 200%;
 }
 
-
+/* sponsors */
 .sponsors { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
-  }
+}
+
 .sponsors img {
   max-width: 100%;
 }
 
-/* Add a black background color to the top navigation */
+/* navbar */
 .topnav {
   overflow: hidden;
-  position: fixed;/* Set the navbar to fixed position */
+  position: fixed;
   top: 0; 
   background: black;
   width: 100%;
   z-index: 1100;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   text-align: center;
@@ -80,13 +80,14 @@ footer {
   color: #52B788;
 }
 
+/* faq */
 details{
   background-color: #303030;
   color: #fff;
 }
 
 summary {
-  padding: .5em 1.3rem;
+  padding: .5em 0.8rem;
   list-style: none;
   display: flex;
   justify-content: space-between;  
@@ -115,4 +116,40 @@ details[open] p{
 
 #firstnav {
 	padding-left: 0px;
+}
+
+mark {
+	background-color: #52B788;
+	color: white;
+}
+
+/* prizes */
+.prizes { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.prize {
+  max-width: 100%;
+  background-color: #52B788;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+}
+
+#topq {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#bottomq {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#bottomq p {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
