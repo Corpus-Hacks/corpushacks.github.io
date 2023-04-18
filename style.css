@@ -168,4 +168,5 @@ mark {
 
 @media only screen and (max-width: 479px) {
    .topnav{ display: none !important; }
+   .gallery{ display: none !important; }
 }
